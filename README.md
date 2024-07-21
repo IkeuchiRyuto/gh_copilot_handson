@@ -44,8 +44,28 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 6. プロジェクトを起動してください
+### 6. env ファイルを作成してください
+
+```
+touch .env
+```
+
+.env ファイルに以下の内容を記述してください
+
+```
+OPENAI_API_URL=your_endpoint_url
+OPENAI_API_KEY=your_secret_key
+
+```
+
+### 7. プロジェクトを起動してください
 
 ```
 uvicorn main:app --reload
+```
+
+### 8. ブラウザで以下の URL にアクセスしてください
+
+```
+http://127.0.0.1:8000/docs
 ```
