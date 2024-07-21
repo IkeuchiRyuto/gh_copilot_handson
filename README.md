@@ -1,0 +1,2 @@
+# gh_copilot_handson
+GitHub Copilotを使ってPython製のチャットアプリを作成
