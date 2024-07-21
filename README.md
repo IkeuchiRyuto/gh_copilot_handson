@@ -43,3 +43,9 @@ source .venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
+
+### 6. プロジェクトを起動してください
+
+```
+uvicorn main:app --reload
+```
